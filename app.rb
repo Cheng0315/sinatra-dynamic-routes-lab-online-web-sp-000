@@ -16,6 +16,6 @@ class App < Sinatra::Base
     @number = params[:number]
     @phrase = params[:phrase]
 
-    "<h1>@phrase</h1>"
+    <h1>@phrase</h1>
   end
 end
