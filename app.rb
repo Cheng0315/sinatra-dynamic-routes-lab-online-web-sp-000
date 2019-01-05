@@ -18,6 +18,6 @@ class App < Sinatra::Base
 
     <%params[:number].to_i do%>
     "#{@phrase}"
-    <%end%>
+    <% end %>
   end
 end
