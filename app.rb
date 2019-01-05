@@ -16,6 +16,8 @@ class App < Sinatra::Base
     @number = params[:number]
     @phrase = params[:phrase]
 
-    "<h1>@phrase</h1>"
+    <%"#{@number.to_i do}"%>
+    "#{@phrase}"
+    <%"#{end}"%>
   end
 end
